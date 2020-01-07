@@ -1,0 +1,18 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Experimental chat app",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "compile": "sass --style=compressed --update assets:public",
+    "watch": "sass --style=compressed --watch assets:public"
+  }
+}
